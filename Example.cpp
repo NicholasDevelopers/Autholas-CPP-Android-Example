@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Autholas.h"
-#include "android_device_id.h" // Your device ID function
+#include "android_device_id.h"
 #include "obfuscate.h"
 
 int main() {
