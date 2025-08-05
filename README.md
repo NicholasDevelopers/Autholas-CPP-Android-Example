@@ -1,3 +1,5 @@
+credit to nubiza for the get device id function 
+
 # Autholas C++ Authentication System for Termux (Android)
 
 A C++ implementation for Autholas authentication service with Android hardware ID verification, specifically designed to work in Termux environment.
