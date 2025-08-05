@@ -348,7 +348,6 @@ The system handles various authentication errors:
 - `SUBSCRIPTION_EXPIRED` - Subscription ended
 - `HWID_BANNED` - Device hardware ID banned
 - `MAX_DEVICES_REACHED` - Device limit exceeded
-- `HWID_ALREADY_USED` - Hardware ID registered to another user
 - `RATE_LIMIT_EXCEEDED` - Too many authentication attempts
 - `DEVELOPER_SUSPENDED` - API developer account suspended
 

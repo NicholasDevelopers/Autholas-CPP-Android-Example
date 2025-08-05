@@ -66,8 +66,6 @@ private:
           printf("Your device has been banned.\n");
         } else if (result.error_code == "MAX_DEVICES_REACHED") {
           printf("Maximum devices limit reached.\n");
-        } else if (result.error_code == "HWID_ALREADY_USED") {
-          printf("This device is already registered to another user.\n");
         } else if (result.error_code == "RATE_LIMIT_EXCEEDED") {
           printf("API rate limit exceeded. Try again later.\n");
         } else if (result.error_code == "DEVELOPER_SUSPENDED") {
