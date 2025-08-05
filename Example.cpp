@@ -13,7 +13,7 @@ int main() {
     // Initialize authentication
     Autholas auth;
     auth.hwid = get_device_id(); // Get device hardware ID
-    auth.device_name = "User Android"; // Your app name
+    auth.device_name = "User Android";
     
     std::string username, password;
     
