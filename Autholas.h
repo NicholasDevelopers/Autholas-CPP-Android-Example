@@ -10,7 +10,7 @@
 class Autholas {
 private:
   const char* ApiKey = OBF("YOUR_API_KEY_HERE"); // Your API Key
-  const char* Auth_Link = OBF("https://autholas.nicholasdevs.my.id/api/auth"); // Your auth endpoint
+  const char* Auth_Link = OBF("https://autholas.web.id/api/auth"); // Your auth endpoint
   
   struct AuthResponse {
     bool success;
@@ -192,3 +192,4 @@ public:
   }
 
 };
+
