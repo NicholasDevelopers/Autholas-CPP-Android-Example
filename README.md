@@ -239,10 +239,10 @@ ls -la /system/build.prop
 
 ```bash
 # Test network connectivity
-curl -I https://autholas.nicholasdevs.my.id
+curl -I https://autholas.web.id
 
 # Check DNS resolution
-nslookup autholas.nicholasdevs.my.id
+nslookup autholas.web.id
 ```
 
 #### 4. Hardware ID Issues
@@ -438,7 +438,7 @@ chmod +x test_hwid
 
 ```bash
 # Test API connectivity
-curl -X POST https://autholas.nicholasdevs.my.id/api/auth \
+curl -X POST https://autholas.web.id/api/auth \
   -H "Content-Type: application/json" \
   -d '{"api_key":"test","username":"test","password":"test","hwid":"test"}'
 ```
@@ -465,4 +465,5 @@ For issues related to:
 ---
 
 **Note**: This application is designed to work within Termux's sandboxed environment. Some system properties might be limited on newer Android versions due to security restrictions.
+
 
